@@ -8,5 +8,9 @@ underlying graph information, both of which yield a more accurate structure reco
 this new priors overcome the phase transition phenomenon, in contrast to existing graph-incorporated approaches, so
 that it is robust to noisy edges that are inconsistent with the actual sparsity structure of the factor loadings. Finally,
 our model can handle both continuous and discrete data types. 
-## Code 
+## Code Description
+- BFGAMCMC_info.R contains the main function for GBFA (with constrained Wishart prior).
+- data_generation.R contains the R code to generate the synthetic data.
+- simulation_info.R contains the example code for the model implementation and model selection. 
 ## Link
+[Original paper](https://pubmed.ncbi.nlm.nih.gov/38281768/)
